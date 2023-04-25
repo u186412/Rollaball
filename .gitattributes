@@ -1,7 +1,6 @@
-# Auto detect text files and perform LF normalization
-* text=auto
-*.dylib filter=lfs diff=lfs merge=lfs -text
-Library/** filter=lfs diff=lfs merge=lfs -text
+version https://git-lfs.github.com/spec/v1
+oid sha256:986ae1f70184895c950e4abaf0fe2ad09ab5522ff55d8d0b76542c53d13f2e15
+size 201
 *.vsidx filter=lfs diff=lfs merge=lfs -text
 *.lock filter=lfs diff=lfs merge=lfs -text
 *.suo filter=lfs diff=lfs merge=lfs -text
@@ -5161,6 +5160,7 @@ Library/** filter=lfs diff=lfs merge=lfs -text
 /Library/PackageCache/com.unity.burst@1.8.2/.Runtime/hostlin/llvm-lipo filter=lfs diff=lfs merge=lfs -text
 /Library/PackageCache/com.unity.burst@1.8.2/.Runtime/hostmac/dsymutil filter=lfs diff=lfs merge=lfs -text
 /Library/PackageCache/com.unity.burst@1.8.2/.Runtime/hostmac/llvm-lipo filter=lfs diff=lfs merge=lfs -text
+*.dylib filter=lfs diff=lfs merge=lfs -text
 *.so filter=lfs diff=lfs merge=lfs -text
 *.a filter=lfs diff=lfs merge=lfs -text
 *.lib filter=lfs diff=lfs merge=lfs -text
